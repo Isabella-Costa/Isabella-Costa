@@ -10,6 +10,14 @@
   <br><br>
 </p>
 
+### 📊 Estatísticas do GitHub
+
+<div align="center">
+  <a href="https://github.com/Isabella-Costa">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Isabella-Costa&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Isabella-Costa&layout=compact&langs_count=7&theme=dracula"/>
+  </a>
+</div>
 ### 🛠️ Habilidades e Ferramentas
 
 <div style="display: inline_block"><br>
