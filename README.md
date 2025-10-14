@@ -19,6 +19,7 @@
   </a>
 </div>
 
+![Snake animation](https://github.com/Isabella-Costa/Isabella-Costa/blob/output/github-contribution-grid-snake.svg)
 
 ### 🛠️ Habilidades e Ferramentas
 <div style="display: inline_block"><br>
