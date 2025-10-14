@@ -21,7 +21,6 @@
 
 
 ### 🛠️ Habilidades e Ferramentas
-
 <div style="display: inline_block"><br>
   <h4>Linguagens e Frameworks</h4>
   <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -32,8 +31,8 @@
   <img align="center" alt="Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 </div>
 
-### 📫 Contato
 
+### 📫 Contato
 <p>
   Estou sempre aberta a novas ideias e oportunidades. Vamos conversar!
 </p>
