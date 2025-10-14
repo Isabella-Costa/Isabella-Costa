@@ -1,12 +1,12 @@
 # 👋 Hello! Welcome to my Github profile.
-## My name is Isabella!
+## Meu nome é Isabella!
 
 ### 👨‍💻 Sobre Mim
 
 <p>
   Sou estudante de Engenharia da Computaçãp
   <br><br>
-  🚀 Atualmente, estou explorando o universo de Visão Computacional e buscando oportunidades para colaborar em projetos.
+  Atualmente, estou explorando o universo de Visão Computacional e buscando oportunidades para colaborar em projetos.
   <br><br>
 </p>
 
