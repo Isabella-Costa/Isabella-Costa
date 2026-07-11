@@ -49,12 +49,8 @@
 ## GitHub Stats & Contributions
 
 <div align="center">
-  <!-- Gráfico da Cobrinha (Snake Animation) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Isabella-Costa/Isabella-Costa/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Isabella-Costa/Isabella-Costa/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Isabella-Costa/Isabella-Costa/output/github-contribution-grid-snake.svg">
-  </picture>
+  <!-- Gráfico de Contribuição 3D -->
+  <img alt="Gráfico de Contribuições 3D" src="./profile-3d-contrib/profile-night-view.svg" width="100%" />
 </div>
 
 <br/>
