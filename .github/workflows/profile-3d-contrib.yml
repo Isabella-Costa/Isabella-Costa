@@ -5,20 +5,42 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+# Garante permissão de escrita para não dar o erro 128
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
+      
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          
+      - name: Inject Custom Purple Palette
+        run: |
+          # Intercepta o arquivo gerado e substitui as cores originais pela sua paleta de roxos
+          # Fundo
+          sed -i 's/#181818/#0D0514/g' profile-3d-contrib/profile-night-view.svg
+          # Blocos sem contribuição (0)
+          sed -i 's/#2d333b/#1a062e/g' profile-3d-contrib/profile-night-view.svg
+          # Nível de contribuição 1
+          sed -i 's/#1f4370/#481b7a/g' profile-3d-contrib/profile-night-view.svg
+          # Nível de contribuição 2
+          sed -i 's/#2d63a8/#7525bd/g' profile-3d-contrib/profile-night-view.svg
+          # Nível de contribuição 3
+          sed -i 's/#3c86e0/#9D4EDD/g' profile-3d-contrib/profile-night-view.svg
+          # Nível de contribuição 4
+          sed -i 's/#50a0ff/#B392F0/g' profile-3d-contrib/profile-night-view.svg
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "Atualiza grafico 3D de contribuicoes"
+          git commit -m "style(readme): apply custom purple hex palette via sed to 3D contribution graph"
           git push
