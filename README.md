@@ -1,3 +1,17 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2D0A4E&height=200&section=header&text=Isabella%20Costa&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Computer%20Engineering%20%C2%B7%20Computer%20Vision&descAlignY=60&descAlign=50" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B392F0&center=true&vCenter=true&width=600&lines=Computer+Engineering+Student;Computer+Vision+%7C+YOLO+%7C+OpenCV;Autonomous+Drone+Systems;DeltaV+%40+UPE;Always+learning%2C+always+building" alt="Typing SVG" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Isabella-Costa&color=2D0A4E&style=for-the-badge&label=PROFILE+VIEWS" />
+
+</div>
+
+---
+
 ## About me
 
 **User:** Isabella Costa <br/>
